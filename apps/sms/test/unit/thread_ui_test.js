@@ -2975,7 +2975,7 @@ suite('thread_ui.js >', function() {
       link.dispatchEvent(contextMenuEvent);
       assert.ok(MockOptionMenu.calls.length, 1);
       // Is first element of the menu 'delete'?
-      assert.equal(MockOptionMenu.calls[0].items[0].l10nId, 'delete');
+      assert.equal(MockOptionMenu.calls[0].items[0].l10nId, 'forward');
     });
   });
 
